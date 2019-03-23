@@ -54,7 +54,7 @@ function get_sql_conn(){
     $conn = mysqli_connect(DATABASE_HOST,DATABASE_USER,DATABASE_PASSWORD,DATABASE_NAME);
 
     // 检测连接
-    if ($conn->connect_error) {
+    if (!$conn) {
         header('HTTP/1.1 500 Internal Server Error');
         die("连接数据库失败");
     } 

@@ -99,7 +99,7 @@ define('SELF_FILE',__FILE__);
                                         <textarea class="form-control" id="content" name="textarea" rows="6" placeholder=""></textarea>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <button id="singlebutton" name="singlebutton" class="btn btn-default">发送消息</button>
                                     </div>

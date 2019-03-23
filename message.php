@@ -62,7 +62,7 @@ $conn = get_sql_conn();
             </div>
 
             <?php
-            if(isset($_POST['words'])){
+            if(isset($_POST['words']) && $_POST['words'] != ''){
                 $words = addslashes($_POST['words']);
                 $nickname = addslashes($_POST['nickname']);
 
@@ -80,9 +80,11 @@ $conn = get_sql_conn();
                 if($conn->query($sql) === TRUE){
                     echo '<div class="alert alert-success" style="margin:2em">留言成功</div>';
                 }else{
-                    echo '<div class="alert alert-danger" style="margin:2em">留言失败</div>';
+                    echo '<div class="alert alert-danger" style="margin:2em">留言失败，保存数据错误，请联系站长。</div>';
                     echo $sql;
                 }
+            }else if(isset($_POST['words'])){
+                echo '<div class="alert alert-danger" style="margin:2em">留言失败，原因：内容为空。</div>';
             }
             ?>
 
@@ -175,7 +177,7 @@ $conn = get_sql_conn();
                                             <textarea class="form-control"  name="words" rows="6" placeholder=""></textarea>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <button class="btn btn-default">留言</button>
                                         </div>
@@ -196,55 +198,6 @@ $conn = get_sql_conn();
     
     <!-- source_footer -->
     <?php include_once(ROOT_DIR.'template/source_footer.php'); ?>
-
-    <script> 
-    $(document).ready(function(){
-        $("#share").click(function(){
-            $("#show-submit").modal('show');
-        });
-        $("#book-submit").click(function(){
-            var name = $("#book-name").val();
-            var type = $("#book-type").val();
-            var url = $("#book-url").val();
-            var remark = $("#book-remark").val();
-            if(name == '' && type == '' && url == '' && remark == ''){
-                $('#empty-content').modal('show');
-                return;
-            }
-            jQuery.ajax({
-                // 这里只能用绝对路径了
-                url: "<?php echo (relative(SELF_FILE)); ?>book_submit.php",
-                type: "post",
-                dataType: "json",
-                data: {
-                    'name':name,
-                    'type':type,
-                    'url':url,
-                    'remark':remark
-                },
-                success: function(msg) {
-                    $('#success200').modal('show');
-                },
-                error: function(XMLHttpRequest, textStatus, errorThrown) {
-                    if(XMLHttpRequest.status == 403){
-                        $('#error403').modal('show');
-                    }else if(XMLHttpRequest.status == 404){
-                        $('#error404').modal('show');
-                    }else if(XMLHttpRequest.status == 500){
-                        $('#error500').modal('show');
-                    }else if(XMLHttpRequest.status == 200){
-                        $('#success200').modal('show');
-                    }else{
-                        alert("未知错误：" + XMLHttpRequest.status);
-                    }
-                },
-                complete: function(XMLHttpRequest, textStatus) {
-                    this; // 调用本次AJAX请求时传递的options参数
-                }
-            });
-        });
-    });
-    </script>
 </body>
 
 </html>
