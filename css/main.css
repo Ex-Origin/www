@@ -1,0 +1,56 @@
+body{
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+}
+
+.DivBackGround{
+    background-color: rgba(135,205,236,0.2);
+    border-radius: 15px;
+    text-align: center  ;
+}
+
+.DivBackGround span{
+    background-color: #00FFFF;
+    color: #00CC66;
+    padding: 9px 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#left{
+    margin-bottom: 50px;
+    float: left;
+}
+
+#right{
+    margin-bottom: 50px;
+    float: right;
+}
+
+.DivBackGround div{
+    width: 50%;
+
+}
+
+
+.inner{
+    width: 50%;
+    text-align: center  ;
+}
+
+.font{
+    font-size: 25px;
+
+}
+
+ a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 12%;
+    line-height: 60px;
+    color: #0064ea;
+}
