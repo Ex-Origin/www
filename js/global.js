@@ -1,4 +1,17 @@
 $(document).ready(function(){
+    var converter = new showdown.Converter();
+
+    $("article.markdown").each(function(){
+        var raw = $(this).html();
+        var html = converter.makeHtml(raw);
+        $(this).html(html);
+    });
+
+    // 要等markdown转化完之后，再进行highlightjs
+    $("pre code").each(function(i, block) {
+        hljs.highlightBlock(block);
+    });
+
     $("#suggest button[type=button]").click(function(){
         var content = $("#suggest input[type=text]").val();
         if(content == ''){

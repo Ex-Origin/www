@@ -1,0 +1,238 @@
+{
+    "c": {
+        "description": "C语言入门",
+        "keywords": "C语言入门",
+        "title": "C语言入门",
+        "name": "C语言",
+        "markdown_file_path": "./c.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av2831981/?p=1",
+                "title": "C语言视频教程"
+            },
+            {
+                "url": "http://www.runoob.com/cprogramming/c-tutorial.html",
+                "title": "推荐网页文档"
+            }
+        ]
+    },
+    "c_2": {
+        "description": "C++入门",
+        "keywords": "C++入门",
+        "title": "C++入门",
+        "name": "C++",
+        "markdown_file_path": "./c++.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av7595819/?p=1",
+                "title": "C++快速入门系列教程-小甲鱼"
+            },
+            {
+                "url": "http://www.runoob.com/cprogramming/c-tutorial.html",
+                "title": "推荐网页文档"
+            }
+        ]
+    },
+    "java": {
+        "description": "Java入门",
+        "keywords": "Java入门",
+        "title": "Java入门",
+        "name": "Java",
+        "markdown_file_path": "./java.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av7299271/?p=1",
+                "title": "韩顺平老师-Java从入门到精通[全]"
+            },
+            {
+                "url": "http://www.runoob.com/java/java-tutorial.html",
+                "title": "推荐网页文档"
+            }
+        ]
+    },
+    "c_4": {
+        "description": "C#入门",
+        "keywords": "C#入门",
+        "title": "C#入门",
+        "name": "C#",
+        "markdown_file_path": "./c#.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av7606481/?p=1",
+                "title": "C#语言入门详解"
+            },
+            {
+                "url": "http://www.runoob.com/csharp/csharp-tutorial.html",
+                "title": "推荐网页文档"
+            }
+        ]
+    },
+    "data_structure": {
+        "description": "数据结构",
+        "keywords": "数据结构",
+        "title": "数据结构",
+        "name": "数据结构",
+        "markdown_file_path": "./data_structure.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av2975983/?p=1",
+                "title": "（完结）（小甲鱼）数据结构和算法"
+            }
+        ]
+    },
+    "sql": {
+        "description": "MySQL入门",
+        "keywords": "MySQL入门",
+        "title": "MySQL入门",
+        "name": "MySQL",
+        "markdown_file_path": "./sql.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av7606481/?p=1",
+                "title": "【IT】MySQL入门视频【全】"
+            },
+            {
+                "url": "http://www.runoob.com/mysql/mysql-tutorial.html",
+                "title": "推荐网页文档"
+            }
+        ]
+    },
+    "html": {
+        "description": "HTML入门",
+        "keywords": "HTML入门",
+        "title": "HTML入门",
+        "name": "HTML",
+        "markdown_file_path": "./html.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av10257787/?p=1",
+                "title": "【极客学院】HTML5基础教学"
+            },
+            {
+                "url": "http://www.runoob.com/html/html-tutorial.html",
+                "title": "推荐网页文档"
+            }
+        ]
+    },
+    "php": {
+        "description": "PHP入门",
+        "keywords": "PHP入门",
+        "title": "PHP入门",
+        "name": "PHP",
+        "markdown_file_path": "./php.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av5491837/?p=1",
+                "title": "PHP从入门到精通之PHP入门篇"
+            },
+            {
+                "url": "http://www.runoob.com/php/php-tutorial.html",
+                "title": "推荐网页文档"
+            }
+        ]
+    },
+    "python": {
+        "description": "Python入门",
+        "keywords": "Python入门",
+        "title": "Python入门",
+        "name": "Python",
+        "markdown_file_path": "./python.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av4050443/?p=1",
+                "title": "[小甲鱼]零基础入门学习Python"
+            },
+            {
+                "url": "http://www.runoob.com/python/python-tutorial.html",
+                "title": "推荐网页文档 python2"
+            },
+            {
+                "url": "http://www.runoob.com/python3/python3-tutorial.html",
+                "title": "推荐网页文档 python3"
+            }
+        ]
+    },
+    "tcp_ip": {
+        "description": "TCP/IP 协议",
+        "keywords": "TCP/IP 协议",
+        "title": "TCP/IP 协议",
+        "name": "TCP/IP 协议",
+        "markdown_file_path": "./tcp_ip.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av23124815/?p=1",
+                "title": "韩老师讲大学高校课程《计算机网络原理》"
+            }
+        ]
+    },
+    "linux": {
+        "description": "Linux入门",
+        "keywords": "Linux入门",
+        "title": "Linux入门",
+        "name": "Linux",
+        "markdown_file_path": "./linux.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av21303002/?p=1",
+                "title": "尚硅谷_韩顺平_Linux教程"
+            },
+            {
+                "url": "http://www.runoob.com/linux/linux-tutorial.html",
+                "title": "推荐网页文档"
+            }
+     
+        ]
+    },
+    "asm": {
+        "description": "汇编语言入门",
+        "keywords": "汇编语言入门",
+        "title": "汇编语言入门",
+        "name": "汇编语言",
+        "markdown_file_path": "./asm.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av18899713/?p=1",
+                "title": "【汇编语言】小甲鱼零基础汇编真正全集1-17章"
+            }
+        ]
+    },
+    "computer": {
+        "description": "计算机组成原理",
+        "keywords": "计算机组成原理",
+        "title": "计算机组成原理",
+        "name": "计算机组成原理",
+        "markdown_file_path": "./computer.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av24033143/?p=1",
+                "title": "[哈工大]计算机组成原理-刘宏伟"
+            }
+        ]
+    },
+    "operating_system": {
+        "description": "操作系统",
+        "keywords": "操作系统",
+        "title": "操作系统",
+        "name": "操作系统",
+        "markdown_file_path": "./operating_system.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av6538245/?p=1",
+                "title": "操作系统_清华大学(向勇、陈渝)"
+            }
+        ]
+    },
+    "robot": {
+        "description": "人工智能",
+        "keywords": "人工智能",
+        "title": "人工智能",
+        "name": "人工智能",
+        "markdown_file_path": "./robot.md",
+        "sidenav": [
+            {
+                "url": "https://www.bilibili.com/video/av6538245/?p=1",
+                "title": "人工智能开发课程【尚学堂·百战程序员201805版】"
+            }
+        ]
+    }
+}

@@ -22,7 +22,7 @@ define('SELF_FILE',__FILE__);
     <!-- header -->
     <?php include_once(ROOT_DIR.'template/header.php'); ?>
 
-    <div class="page-header" style="background: linear-gradient(rgba(36, 39, 38, 0.5), rgba(36, 39, 38, 0.5)), rgba(36, 39, 38, 0.5) url(<?php echo (relative(SELF_FILE)); ?>images/program.jpg) no-repeat center; background-size: cover; margin: 0; border-bottom: none; padding-bottom: 0px;"><!-- page header -->
+    <div class="page-header" style="background: linear-gradient(rgba(36, 39, 38, 0.5), rgba(36, 39, 38, 0.5)), rgba(36, 39, 38, 0.5) url(<?php echo (relative(SELF_FILE)); ?>images/program.jpg) no-repeat center; background-size: cover; margin: 0; border-bottom: none; padding-bottom: 0px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -48,14 +48,14 @@ define('SELF_FILE',__FILE__);
                         <!-- service block -->
                         <div class="service-icon mb20">
                             <!-- service img -->
-                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/c.php"><img src="<?php echo (relative(SELF_FILE)); ?>images/c.png" class="program-icon" alt="C语言"> </a>
+                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=c"><img src="<?php echo (relative(SELF_FILE)); ?>images/c.png" class="program-icon" alt="C语言"> </a>
                         </div>
                         <!-- service img -->
                         <div class="service-content">
                             <!-- service content -->
-                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/c.php" class="title">C语言</a></h2>
-                            <p>Responsive website templates free download html5 with css3 for Hair Salon and Shop website template.</p>
-                            <div class="price ">$45</div>
+                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=c" class="title">C语言</a></h2>
+                            <p>C 语言是一种通用的、面向过程式的计算机程序设计语言。1972 年，为了移植与开发 UNIX 操作系统，丹尼斯·里奇在贝尔电话实验室设计开发了 C 语言。</p>
+                            <p>C语言是一种广泛使用的计算机语言，它与 Java 编程语言一样普及，二者在现代软件程序员之间都得到广泛使用。 当前最新的C语言标准为 C11 ，在它之前的C语言标准为 C99。 </p>
                         </div>
                         <!-- service content -->
                     </div>
@@ -66,14 +66,13 @@ define('SELF_FILE',__FILE__);
                         <!-- service block -->
                         <div class="service-icon mb20">
                             <!-- service img -->
-                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/c++.php"><img src="<?php echo (relative(SELF_FILE)); ?>images/c++.png" class="program-icon" alt="C++"> </a>
+                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=c_2"><img src="<?php echo (relative(SELF_FILE)); ?>images/c++.png" class="program-icon" alt="C++"> </a>
                         </div>
                         <!-- service img -->
                         <div class="service-content">
                             <!-- service content -->
-                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/c++.php" class="title">C++</a></h2>
-                            <p>Free Responsive HTML5 CSS3 Website Template for hair salon and beauty salon.Lorem ipsum simple dummy content for only presentations.</p>
-                            <div class="price">$45</div>
+                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=c_2" class="title">C++</a></h2>
+                            <p>C++ 是一种中级语言，它是由 Bjarne Stroustrup 于 1979 年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言，是一种面向对象的程序设计语言。C++ 可运行于多种平台上，如 Windows、MAC 操作系统以及 UNIX 的各种版本。</p>
                         </div>
                         <!-- service content -->
                     </div>
@@ -84,13 +83,13 @@ define('SELF_FILE',__FILE__);
                         <!-- service block -->
                         <div class="service-icon mb20">
                             <!-- service img -->
-                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/java.php" ><img src="<?php echo (relative(SELF_FILE)); ?>images/java.png" class="program-icon" alt="Java"> </div></a>
+                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=java" ><img src="<?php echo (relative(SELF_FILE)); ?>images/java.png" class="program-icon" alt="Java"> </div></a>
                         <!-- service img -->
                         <div class="service-content">
                             <!-- service content -->
-                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/java.php"  class="title">Java</a></h2>
-                            <p>Responsive website templates free download html with css. Lorem ipsum simple dummy content for only presentations.</p>
-                            <div class="price ">$45</div>
+                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=java"  class="title">Java</a></h2>
+                            <p>Java 是由Sun Microsystems公司于1995年5月推出的高级程序设计语言。</p>
+                            <p>Java可运行于多个平台，如Windows, Mac OS，及其他多种UNIX版本的系统。</p>
                         </div>
                         <!-- service content -->
                     </div>
@@ -108,11 +107,8 @@ define('SELF_FILE',__FILE__);
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-sm-7 col-md-8 col-xs-12">
-                    <h1 class="cta-title">Book your online appointment</h1>
-                    <p class="cta-text"> Call to action button example for booking appointment for patients.</p>
-                </div>
-                <div class="col-lg-4 col-sm-5 col-md-4 col-xs-12">
-                    <a href="#" class="btn btn-white btn-lg mt20">Call to action Button</a>
+                    <h1 class="cta-title">Noting is impossible！</h1>
+                    <p class="cta-text"> 世上无难事！</p>
                 </div>
             </div>
         </div>

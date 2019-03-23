@@ -49,13 +49,13 @@ define('SELF_FILE',__FILE__);
                             <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
-                                    <a href="#"><img src="images/post-img.jpg" alt="" class="img-responsive"></a>
+                                    <a href="#"><img src="" alt="" class="img-responsive"></a>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="post-content">
                                     <h2><a href="<?php echo (relative(SELF_FILE)); ?>tool/my-pe-tool.php" class="title">我的PE工具</a></h2>
-                                    <p>Vestibulum eget tellus tincidunt erat posuere lobortisulla facilisi auris rutrum mollis dui, quis elementum turpis one viverra sedam mollis.</p>
+                                    <p></p>
                                     <a href="<?php echo (relative(SELF_FILE)); ?>tool/my-pe-tool.php" class="btn btn-default">了解更多</a> 
                                     <a href="https://github.com/Ex-Origin/my-pe-tool" target="_blank" class="btn btn-default">查看源码</a> 
                                 </div>

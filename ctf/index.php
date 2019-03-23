@@ -11,8 +11,8 @@ define('SELF_FILE',__FILE__);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="本站推荐了很多优秀的编程教学视频。">
-    <meta name="keywords" content="编程,编程入门,自学编程,编程视频">
+    <meta name="description" content="CTF">
+    <meta name="keywords" content="CTF">
     <title>CTF</title>
     <!-- source_header -->
     <?php include_once(ROOT_DIR.'template/source_header.php'); ?>

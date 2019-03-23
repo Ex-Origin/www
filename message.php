@@ -7,19 +7,7 @@ define('SELF_FILE',__FILE__);
 define('SHOW_NUM',10);
 
 // 连接数据库
-$conn = mysqli_connect(DATABASE_HOST,DATABASE_USER,DATABASE_PASSWORD,DATABASE_NAME);
-
-// 检测连接
-if ($conn->connect_error) {
-    header('HTTP/1.1 500 Internal Server Error');
-    die("连接数据库失败");
-} 
-
-// 修改数据库连接字符集为 utf8
-if(mysqli_set_charset($conn,"utf8") == false){
-    header('HTTP/1.1 500 Internal Server Error');
-    die("修改数据库连接字符集为 utf8 时发生错误");
-}
+$conn = get_sql_conn();
 
 ?>
 <!DOCTYPE html>
@@ -30,9 +18,9 @@ if(mysqli_set_charset($conn,"utf8") == false){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="书是人类进步的阶梯，这里我推荐一些好书给大家。">
-    <meta name="keywords" content="书籍,书籍下载,编程书籍">
-    <title>推荐书籍</title>
+    <meta name="description" content="留言板">
+    <meta name="keywords" content="留言板">
+    <title>留言板</title>
 
     <!-- source_header -->
     <?php include_once(ROOT_DIR.'template/source_header.php'); ?>
@@ -178,10 +166,8 @@ if(mysqli_set_charset($conn,"utf8") == false){
                             <div class="row">
                                 <form method="post" action="<?php echo (relative(SELF_FILE)); ?>message.php">
                                     <div class="col-md-6">
-                                        <div class="input-group input-group-mg">
-                                            <span class="input-group-addon">您想用的昵称</span>
-                                            <input type="text" name="nickname" class="form-control"  placeholder="">
-                                        </div>
+                                        <label class="control-label" for="Subject">您想用的昵称</label>
+                                        <input type="text" name="nickname" placeholder="" class="form-control">
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div class="form-group">

@@ -11,7 +11,7 @@
                             <li class="active"><a href="<?php echo (relative(SELF_FILE)); ?>index.php" title="首页">首页</a></li>
                             <li class="active"><a href="<?php echo (relative(SELF_FILE)); ?>introduction/index.php" title="编程入门">编程入门</a></li>
                             <li class="active"><a href="<?php echo (relative(SELF_FILE)); ?>book.php" title="推荐书籍">推荐书籍</a></li>
-                            <!-- <li class="active"><a href="<?php echo (relative(SELF_FILE)); ?>news.php" title="简讯">简讯</a></li> -->
+                            <li class="active"><a href="<?php echo (relative(SELF_FILE)); ?>news.php" title="简讯">简讯</a></li>
                             <li class="active"><a href="<?php echo (relative(SELF_FILE)); ?>tool/index.php" title="我的工具">我的工具</a></li>
                             <li class="has-sub"><a href="<?php echo (relative(SELF_FILE)); ?>ctf/index.php" title="CTF">CTF</a>
                                 <ul>

@@ -4,19 +4,7 @@ include_once ('./config.php');
 define('SELF_FILE',__FILE__);
 
 // 连接数据库
-$suggest_conn = mysqli_connect(DATABASE_HOST,DATABASE_USER,DATABASE_PASSWORD,DATABASE_NAME);
-
-// 检测连接
-if ($suggest_conn->connect_error) {
-    header('HTTP/1.1 500 Internal Server Error');
-    die("连接数据库失败");
-} 
-
-// 修改数据库连接字符集为 utf8
-if(mysqli_set_charset($suggest_conn,"utf8") == false){
-    header('HTTP/1.1 500 Internal Server Error');
-    die("修改数据库连接字符集为 utf8 时发生错误");
-}
+$suggest_conn = get_sql_conn();
 
 if(isset($_POST['suggest'])){
     $all_input = addslashes( 

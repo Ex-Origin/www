@@ -19,7 +19,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="footer-widget footer-social">
                         <!-- social block -->
-                        <h2 class="widget-title">相关联系账号</h2>
+                        <h2 class="widget-title">其他账号</h2>
                         <ul class="listnone">
                             <li>
                                 <a href="https://github.com/Ex-Origin/" target="_blank"> <i class="fa fa-github"></i> Github </a>

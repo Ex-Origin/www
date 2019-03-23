@@ -11,8 +11,8 @@ define('SELF_FILE',__FILE__);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="提供原创工具的使用和软件的下载，也推荐一些互联网上的优秀软件。">
-    <meta name="keywords" content="软件,软件工具,原创软件">
+    <meta name="description" content="我的子站">
+    <meta name="keywords" content="我的子站">
     <title>我的子站</title>
     <!-- source_header -->
     <?php include_once(ROOT_DIR.'template/source_header.php'); ?>
@@ -48,7 +48,7 @@ define('SELF_FILE',__FILE__);
                             <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
-                                    <a href="#"><img src="images/post-img.jpg" alt="" class="img-responsive"></a>
+                                    <a href="#"><img src="" alt="" class="img-responsive"></a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -68,7 +68,7 @@ define('SELF_FILE',__FILE__);
                             <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
-                                    <a href="#"><img src="images/post-img-1.jpg" alt="" class="img-responsive"></a>
+                                    <a href="#"><img src="" alt="" class="img-responsive"></a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -88,7 +88,7 @@ define('SELF_FILE',__FILE__);
                             <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
-                                    <a href="#"><img src="images/post-img-2.jpg" alt="" class="img-responsive"></a>
+                                    <a href="#"><img src="" alt="" class="img-responsive"></a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -108,7 +108,7 @@ define('SELF_FILE',__FILE__);
                             <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
-                                    <a href="#"><img src="images/post-img.jpg" alt="" class="img-responsive"></a>
+                                    <a href="#"><img src="" alt="" class="img-responsive"></a>
                                 </div>
                             </div>
                             <div class="col-md-6">
