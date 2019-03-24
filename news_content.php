@@ -1,14 +1,12 @@
 <?php
 include_once('./config.php');
 // 定义文件目录
-define('SELF_FILE',__FILE__);
+// 为了迎合重写规则
+define('SELF_FILE',dirname(__FILE__) . str_replace(dirname(__FILE__),'/news_content',__FILE__));
 
-// 定义一次显示的消息数量
-define('SHOW_NUM',10);
-
-$title = '';
-if(isset($_GET['title'])){
-    $title = addslashes($_GET['title']);
+$id = 0;
+if(isset($_GET['id']) && is_numeric($_GET['id'])){
+    $id = (int)addslashes($_GET['id']);
 }else{
     include_once ROOT_DIR . '403.html';
     header('HTTP/1.1 403 Forbidden');
@@ -19,7 +17,7 @@ if(isset($_GET['title'])){
 $conn = get_sql_conn();
 
 // 读取内容
-$sql = "select title,introduction,time,markdown_content from news where title ='$title'";
+$sql = "select title,introduction,time,markdown_content from news where id ='".(string)$id."'";
 $result = $conn->query($sql);
 if($result->num_rows <= 0){
     include_once ROOT_DIR . '403.html';
@@ -67,7 +65,7 @@ $data = $result->fetch_assoc();
     <div class="content">
         <div class="container">
 
-            <article class="markdown"><?php echo $data['markdown_content']; ?></article>
+            <article class="markdown"><?php echo htmlspecialchars($data['markdown_content']); ?></article>
 
         </div>
     </div>

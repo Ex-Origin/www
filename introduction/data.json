@@ -20,7 +20,7 @@
             },
             {
                 "url": "https://visualstudio.microsoft.com/downloads/",
-                "title": "推荐IDE：VS2017"
+                "title": "推荐IDE：VS2019"
             },
             {
                 "url": "http://www.njwww.net/html/softwaredown/121222083268.html",
@@ -42,6 +42,18 @@
             {
                 "url": "http://www.runoob.com/cprogramming/c-tutorial.html",
                 "title": "推荐网页文档"
+            },
+            {
+                "url": "https://tool.lu/coderunner/",
+                "title": "代码在线运行"
+            },
+            {
+                "url": "https://visualstudio.microsoft.com/downloads/",
+                "title": "推荐IDE：VS2019"
+            },
+            {
+                "url": "http://www.njwww.net/html/softwaredown/121222083268.html",
+                "title": "推荐IDE：vc2010"
             }
         ]
     },
@@ -59,6 +71,18 @@
             {
                 "url": "http://www.runoob.com/java/java-tutorial.html",
                 "title": "推荐网页文档"
+            },
+            {
+                "url": "https://tool.lu/coderunner/",
+                "title": "代码在线运行"
+            },
+            {
+                "url": "https://www.eclipse.org/downloads/",
+                "title": "推荐IDE：Eclipse"
+            },
+            {
+                "url": "https://www.jetbrains.com/idea/",
+                "title": "推荐IDE：IDEA"
             }
         ]
     },

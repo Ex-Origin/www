@@ -63,6 +63,44 @@
     margin-bottom: 1em;
 }
 
+/* normal size */
+b, strong {
+    font-weight: 700;
+}
+
+blockquote{
+    margin: 1em 0.3em;
+    background: #eee;
+}
+
+article.markdown img{
+    max-width: 100%;
+}
+
+article.markdown h1{
+    text-align: center;
+    margin: 1em;
+}
+
+article.markdown h2{
+    color: #666;
+}
+
+article.markdown h1,article.markdown h2,article.markdown h3,article.markdown h4,article.markdown h5,article.markdown h6 {
+    clear: both;
+    line-height: 1.4;
+    margin: 0 0 0.75em;
+    padding: 1.5em 0 0;
+}
+
+article.markdown p{
+    text-indent: 2em;
+}
+
+article.markdown{
+    font-family: KaiTi,kaiti,Kaiti,楷体;
+}
+
 /* service-bottom-right1 */
 .service-bottom-right1 a h4{
 	color:#337ab7;

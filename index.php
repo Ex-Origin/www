@@ -40,7 +40,7 @@ define('SELF_FILE',__FILE__);
                     <div class="mb60 text-center section-title">
                         <!-- section title start-->
                         <h1>优秀的编程网站</h1>
-                        <h5 class="small-title ">让编程更加简单，更加使用</h5>
+                        <h5 class="small-title ">让编程更加简单，更加易用</h5>
                     </div>
                     <!-- /.section title start-->
                 </div>
@@ -113,7 +113,7 @@ define('SELF_FILE',__FILE__);
                     <div class="section-title mb60 text-center">
                         <!-- section title start-->
                         <h1>简讯</h1>
-                        <h5 class="small-title">力推好的文章。</h5>
+                        <h5 class="small-title">力推好的文章</h5>
                     </div>
                     <!-- /.section title start-->
                 </div>
@@ -127,12 +127,13 @@ define('SELF_FILE',__FILE__);
                         <h5 class="small-title ">知乎 - 任晓珲</h5>
                         <p>我们经常看到媒体在报道时说国内某组织的某黑客在几秒内就攻破了IE浏览器，在几秒内就绕过了XX保护机制。但事实的真相是他们其实就是运行了一个自己准备好的代码而已，而媒体上说的这几秒钟的时间其实是代码的运行时间。据我说知，他们在参赛之前，整个团队为了这几秒钟的ShowTime，需要经历至少十余个甚至数十个不眠之夜，然后才能打造出可能仅有几百个字节的艺术品般的代码（也就是Exploit），最后才能拿去现场过五关斩六将。</p>
                         <p class="important">如果在这个十三亿人口的国度里最牛逼的黑客都需要如此付出，那么作为目前默默无闻的你来说，想要学会这门技术应该需要多少个不眠之夜呢？</p>
-                        <a href="# " class="btn btn-default">阅读全文</a> </div>
+                        <a href="<?php echo (relative(SELF_FILE)); ?>news_content/1.html" class="btn btn-default">阅读全文</a> 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >建站模板</a></div> -->
+    
     <div class="space-medium">
         <div class="container">
             <div class="row">
@@ -140,7 +141,7 @@ define('SELF_FILE',__FILE__);
                     <div class="section-title mb60 text-center">
                         <!-- section title start-->
                         <h1>友情链接</h1>
-                        <h5 class="small-title">推荐优秀的外链</h5>
+                        <h5 class="small-title">推荐优秀的网站</h5>
                     </div>
                     <!-- /.section title start-->
                 </div>
@@ -173,7 +174,7 @@ define('SELF_FILE',__FILE__);
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="cta-title">Nothing is impossible</h1>
-                    <p class="cta-text">世上无难事，只怕有心人。现在就开始学习把。</p>
+                    <p class="cta-text">世上无难事，只怕有心人。现在就开始学习吧。</p>
                     <a href="<?php echo (relative(SELF_FILE)); ?>introduction/index.php" class="btn btn-default" target="_blank">开始学习</a> </div>
             </div>
         </div>
@@ -197,6 +198,14 @@ define('SELF_FILE',__FILE__);
                     <p class="paragraph">不管你有多么聪明，总有人比你更聪明。如果你想变得更强，那就必须得到能得到的一切帮助。</p>
                 </div>
                 <div class="panel-footer"><h3 class="panel-title text-right">————《The Imitation Game》Joan（有改动）</h3></div>
+            </div>
+
+            <div class="panel panel-success">
+                <div class="panel-body">
+                    <p class="paragraph">Appreciation is a wonderful thing. It makes what is excellent in others belong to us as well.</p>
+                    <p class="paragraph">欣赏是一件美妙的事，它让别人的优点也成为我们自己的。</p>
+                </div>
+                <div class="panel-footer"><h3 class="panel-title text-right">————伏尔泰</h3></div>
             </div>
         </div>
     </div>

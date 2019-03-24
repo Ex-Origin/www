@@ -58,14 +58,14 @@ $conn = get_sql_conn();
                 }
             }
 
-            $sql = "select title,introduction,time from news order by time desc limit ".(string)($page * SHOW_NUM - SHOW_NUM).",".(string)SHOW_NUM;
+            $sql = "select title,introduction,time,id from news order by time desc , id desc limit ".(string)($page * SHOW_NUM - SHOW_NUM).",".(string)SHOW_NUM;
             $result = $conn->query($sql);
             while($result->num_rows > 0 && $row = $result->fetch_assoc()) {
             ?>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="service-bottom-right1">
-                        <a href="<?php echo (relative(SELF_FILE)); ?>news_content.php?title=<?php echo urlencode($row['title']); ?>">
+                        <a href="<?php echo (relative(SELF_FILE)); ?>news_content/<?php echo urlencode($row['id']); ?>.html">
                             <h4><?php echo $row['title']; ?></h4>
                         </a>
                         <p><?php echo $row['introduction']; ?></p>

@@ -48,12 +48,12 @@ define('SELF_FILE',__FILE__);
                         <!-- service block -->
                         <div class="service-icon mb20">
                             <!-- service img -->
-                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=c"><img src="<?php echo (relative(SELF_FILE)); ?>images/c.png" class="program-icon" alt="C语言"> </a>
+                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/c.html"><img src="<?php echo (relative(SELF_FILE)); ?>images/c.png" class="program-icon" alt="C语言"> </a>
                         </div>
                         <!-- service img -->
                         <div class="service-content">
                             <!-- service content -->
-                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=c" class="title">C语言</a></h2>
+                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/c.html" class="title">C语言</a></h2>
                             <p>C 语言是一种通用的、面向过程式的计算机程序设计语言。1972 年，为了移植与开发 UNIX 操作系统，丹尼斯·里奇在贝尔电话实验室设计开发了 C 语言。</p>
                             <p>C语言是一种广泛使用的计算机语言，它与 Java 编程语言一样普及，二者在现代软件程序员之间都得到广泛使用。 当前最新的C语言标准为 C11 ，在它之前的C语言标准为 C99。 </p>
                         </div>
@@ -66,12 +66,12 @@ define('SELF_FILE',__FILE__);
                         <!-- service block -->
                         <div class="service-icon mb20">
                             <!-- service img -->
-                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=c_2"><img src="<?php echo (relative(SELF_FILE)); ?>images/c++.png" class="program-icon" alt="C++"> </a>
+                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/c_2.html"><img src="<?php echo (relative(SELF_FILE)); ?>images/c++.png" class="program-icon" alt="C++"> </a>
                         </div>
                         <!-- service img -->
                         <div class="service-content">
                             <!-- service content -->
-                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=c_2" class="title">C++</a></h2>
+                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/c_2.html" class="title">C++</a></h2>
                             <p>C++ 是一种中级语言，它是由 Bjarne Stroustrup 于 1979 年在贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言，是一种面向对象的程序设计语言。C++ 可运行于多种平台上，如 Windows、MAC 操作系统以及 UNIX 的各种版本。</p>
                         </div>
                         <!-- service content -->
@@ -83,11 +83,11 @@ define('SELF_FILE',__FILE__);
                         <!-- service block -->
                         <div class="service-icon mb20">
                             <!-- service img -->
-                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=java" ><img src="<?php echo (relative(SELF_FILE)); ?>images/java.png" class="program-icon" alt="Java"> </div></a>
+                            <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/java.html" ><img src="<?php echo (relative(SELF_FILE)); ?>images/java.png" class="program-icon" alt="Java"> </div></a>
                         <!-- service img -->
                         <div class="service-content">
                             <!-- service content -->
-                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content.php?page=java"  class="title">Java</a></h2>
+                            <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/java.html"  class="title">Java</a></h2>
                             <p>Java 是由Sun Microsystems公司于1995年5月推出的高级程序设计语言。</p>
                             <p>Java可运行于多个平台，如Windows, Mac OS，及其他多种UNIX版本的系统。</p>
                         </div>

@@ -12,6 +12,19 @@ $(document).ready(function(){
         hljs.highlightBlock(block);
     });
 
+    // 为了实现markdown的引用效果
+    $("article.markdown p").each(function(){
+        var content = $(this).text();
+        
+        if(content.slice(0,2) == '> '){
+            content = content.slice(2);
+            var txt=document.createElement("blockquote");
+            txt.innerHTML = content;
+            $(this).after(txt);
+            $(this).remove();
+        }
+    });
+
     $("#suggest button[type=button]").click(function(){
         var content = $("#suggest input[type=text]").val();
         if(content == ''){

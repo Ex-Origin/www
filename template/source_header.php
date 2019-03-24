@@ -8,6 +8,8 @@
 <link href="<?php echo (relative(SELF_FILE)); ?>css/style.css" rel="stylesheet">
 <link href="<?php echo (relative(SELF_FILE)); ?>css/style-mod.css" rel="stylesheet">
 
+<link rel="shortcut icon" href="<?php echo (relative(SELF_FILE)); ?>favicon.ico" type="image/x-icon" />
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>

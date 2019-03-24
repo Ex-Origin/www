@@ -1,10 +1,11 @@
 <?php
 include_once '../config.php';
 // 定义文件目录
-define('SELF_FILE', __FILE__);
+// 为了迎合重写规则
+define('SELF_FILE',dirname(__FILE__) . str_replace(dirname(__FILE__),'/content',__FILE__));
 
 // 读取配置文件
-$data = json_decode(file_get_contents('data.json'),true);
+$data = json_decode(file_get_contents(ROOT_DIR . 'introduction/data.json'),true);
 if(isset($_GET['page']) && $data[$_GET['page']]){
     // 丢弃不需要的内容
     $data = $data[$_GET['page']];
@@ -56,7 +57,7 @@ if(isset($_GET['page']) && $data[$_GET['page']]){
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <article class="markdown"><?php include_once($data['markdown_file_path']); ?></article>
+                    <article class="markdown"><?php htmlspecialchars(include_once($data['markdown_file_path'])); ?></article>
                 </div>
 
                 <!-- sidenav -->
