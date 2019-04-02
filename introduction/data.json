@@ -15,7 +15,7 @@
                 "title": "推荐网页文档"
             },
             {
-                "url": "https://tool.lu/coderunner/",
+                "url": "https://c.runoob.com/compile/11",
                 "title": "代码在线运行"
             },
             {
@@ -44,7 +44,7 @@
                 "title": "推荐网页文档"
             },
             {
-                "url": "https://tool.lu/coderunner/",
+                "url": "https://c.runoob.com/compile/12",
                 "title": "代码在线运行"
             },
             {
@@ -73,7 +73,7 @@
                 "title": "推荐网页文档"
             },
             {
-                "url": "https://tool.lu/coderunner/",
+                "url": "https://c.runoob.com/compile/10",
                 "title": "代码在线运行"
             },
             {
@@ -91,7 +91,7 @@
         "keywords": "C#入门",
         "title": "C#入门",
         "name": "C#",
-        "markdown_file_path": "./c#.md",
+        "markdown_file_path": "./c_4.md",
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av7606481/?p=1",
@@ -100,6 +100,14 @@
             {
                 "url": "http://www.runoob.com/csharp/csharp-tutorial.html",
                 "title": "推荐网页文档"
+            },
+            {
+                "url": "https://c.runoob.com/compile/14",
+                "title": "代码在线运行"
+            },
+            {
+                "url": "https://visualstudio.microsoft.com/downloads/",
+                "title": "推荐IDE：VS2019"
             }
         ]
     },
@@ -113,6 +121,10 @@
             {
                 "url": "https://www.bilibili.com/video/av2975983/?p=1",
                 "title": "（完结）（小甲鱼）数据结构和算法"
+            },
+            {
+                "url": "https://algorithm-visualizer.org/",
+                "title": "在线算法可视化工具"
             }
         ]
     },
@@ -129,7 +141,19 @@
             },
             {
                 "url": "http://www.runoob.com/mysql/mysql-tutorial.html",
-                "title": "推荐网页文档"
+                "title": "推荐网页文档 Mysql"
+            },
+            {
+                "url": "http://www.runoob.com/mysql/mysql-tutorial.html",
+                "title": "推荐网页文档 标准sql"
+            },
+            {
+                "url": "https://downloads.mariadb.org/mariadb/+releases/",
+                "title": "MariaDB 下载"
+            },
+            {
+                "url": "https://dev.mysql.com/downloads/mysql/",
+                "title": "MySQL 下载"
             }
         ]
     },
@@ -146,7 +170,27 @@
             },
             {
                 "url": "http://www.runoob.com/html/html-tutorial.html",
-                "title": "推荐网页文档"
+                "title": "推荐网页文档 HTML"
+            },
+            {
+                "url": "https://c.runoob.com/front-end/61",
+                "title": "web 在线编辑器"
+            },
+            {
+                "url": "http://www.runoob.com/js/js-tutorial.html",
+                "title": "推荐网页文档 JavaScript"
+            },
+            {
+                "url": "http://www.runoob.com/bootstrap4/bootstrap4-tutorial.html",
+                "title": "推荐网页文档 Bootstrap4"
+            },
+            {
+                "url": "http://www.runoob.com/jquery/jquery-tutorial.html",
+                "title": "推荐网页文档 jQuery"
+            },
+            {
+                "url": "https://www.jetbrains.com/webstorm/",
+                "title": "推荐IDE：WebStrom"
             }
         ]
     },
@@ -164,6 +208,18 @@
             {
                 "url": "http://www.runoob.com/php/php-tutorial.html",
                 "title": "推荐网页文档"
+            },
+            {
+                "url": "https://c.runoob.com/compile/1",
+                "title": "代码在线运行"
+            },
+            {
+                "url": "https://www.jetbrains.com/phpstorm/",
+                "title": "推荐IDE：PhpStorm"
+            },
+            {
+                "url": "http://www.zend.com/en/products/studio/downloads",
+                "title": "推荐IDE：Zeng Studio"
             }
         ]
     },
@@ -185,6 +241,18 @@
             {
                 "url": "http://www.runoob.com/python3/python3-tutorial.html",
                 "title": "推荐网页文档 python3"
+            },
+            {
+                "url": "https://c.runoob.com/compile/6",
+                "title": "代码在线运行 python2"
+            },
+            {
+                "url": "https://c.runoob.com/compile/9",
+                "title": "代码在线运行 python3"
+            },
+            {
+                "url": "https://www.jetbrains.com/pycharm/",
+                "title": "推荐IDE：PyCharm"
             }
         ]
     },

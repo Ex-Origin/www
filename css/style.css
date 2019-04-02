@@ -108,10 +108,10 @@ hr {
 blockquote {
 	padding:10px 20px;
 	margin:0px;
-	font-size:21px;
+	/* font-size:21px; */
 	line-height:32px;
-	color:#3c3c3c;
-	font-style:italic;
+	/* color:#3c3c3c; */
+	/* font-style:italic; */
 	border-left:5px solid #aa9144;
 }
 .tlinks {

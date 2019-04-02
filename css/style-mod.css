@@ -97,8 +97,20 @@ article.markdown p{
     text-indent: 2em;
 }
 
+article.markdown li p{
+    text-indent:unset;
+}
+
 article.markdown{
     font-family: KaiTi,kaiti,Kaiti,楷体;
+}
+
+.sidenav{
+    margin: 2em 0em;
+}
+
+.hljs{
+    white-space: unset;
 }
 
 /* service-bottom-right1 */

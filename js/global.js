@@ -7,6 +7,16 @@ $(document).ready(function(){
         $(this).html(html);
     });
 
+    // 修复 markdown 对 > 和 < 的不支持
+    $("article.markdown pre code").each(function(){
+        var content = $(this).html();
+
+        content = content.replace(/&amp;lt;/g,'&lt;');
+        content = content.replace(/&amp;gt;/g,'&gt;');
+        
+        $(this).html(content);
+    });
+
     // 要等markdown转化完之后，再进行highlightjs
     $("pre code").each(function(i, block) {
         hljs.highlightBlock(block);

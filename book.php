@@ -102,7 +102,7 @@ $conn = get_sql_conn();
                 <div class="col-lg-8 col-sm-7 col-md-8 col-xs-12">
                     <h1 class="cta-title">欢迎大家提交自己的电子书籍链接</h1>
                     <div class="quote-content">
-                        <blockquote>“让我们共建出一个丰富的书籍世界”</blockquote>
+                        <p>“让我们共建出一个丰富的书籍世界”</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-5 col-md-4 col-xs-12">

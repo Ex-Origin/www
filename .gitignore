@@ -1,0 +1,7 @@
+# secure file
+# 安全配置文件
+waf.php
+password.php
+
+# Hidden items
+.htaccess
