@@ -5,3 +5,6 @@ password.php
 
 # Hidden items
 .htaccess
+
+# The temporary files
+*temp*
