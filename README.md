@@ -83,15 +83,13 @@ $data = json_decode(file_get_contents('data.json'),true);
 }
 ```
 
-网页的内荣由md文件来编写
+网页的内容由md文件来编写
 
-### 7. Ajax交互网页
-* suggest.php
-* contact_submit.php
-* book_submit.php
+### 7. submit模块
+该模块主要处理客户端发送过来的数据。该模块仅用于`Ajax`交互提交数据，里面的文件本身不会返回网页内容。
 
-以上文件仅用与`Ajax`交互提交数据，文件本身不会返回网页内容。
+> 注意：`message.php`提交的内容由该网页自行处理。
 
-_下面的文件仅是为了缓解站点带宽压力而设计的Ajax交互网页_
-* show_more.php
-* introduction/show_more.php
+### 8. Ajax模块
+
+_该模块是为了缓解站点带宽压力而设计的Ajax交互网页_

@@ -63,6 +63,7 @@ if(isset($_GET['page']) && $data[$_GET['page']]){
                 <!-- sidenav -->
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="sidenav">
+                        <h3 class="widget-title text-center" style="color: #666;">推荐链接</h3>
                         <ul class="listnone">
                             <?php
                             foreach($data['sidenav'] as $content){

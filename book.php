@@ -171,8 +171,7 @@ $conn = get_sql_conn();
                 return;
             }
             jQuery.ajax({
-                // 这里只能用绝对路径了
-                url: "<?php echo (relative(SELF_FILE)); ?>book_submit.php",
+                url: "<?php echo (relative(SELF_FILE)); ?>submit/book_submit.php",
                 type: "post",
                 dataType: "json",
                 data: {

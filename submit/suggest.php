@@ -1,5 +1,5 @@
 <?php
-include_once ('./config.php');
+include_once ('../config.php');
 // 定义文件目录
 define('SELF_FILE',__FILE__);
 
@@ -22,7 +22,7 @@ if(isset($_POST['suggest'])){
     if($suggest_conn->query($sql) === TRUE){
         echo "成功";
         // 给站长发送邮件
-        system('../suggest.py');
+        system('../../suggest.py');
     }else{
         header('HTTP/1.1 500 Internal Server Error');
         // echo $sql;

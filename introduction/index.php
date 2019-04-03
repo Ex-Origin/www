@@ -124,7 +124,7 @@ define('SELF_FILE',__FILE__);
     $(document).ready(function(){
         $("#show-more").click(function(){
             jQuery.ajax({
-                url: "<?php echo (relative(SELF_FILE)); ?>introduction/show_more.php",
+                url: "<?php echo (relative(SELF_FILE)); ?>ajax/introduction_show_more.php",
                 type: "get",
                 success: function(msg) {
                     $("#show-more").remove();

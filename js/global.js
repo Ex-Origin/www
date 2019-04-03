@@ -43,7 +43,7 @@ $(document).ready(function(){
         }
         jQuery.ajax({
             // 这里只能用绝对路径了
-            url: "/suggest.php",
+            url: "/submit/suggest.php",
             type: "post",
             dataType: "json",
             data: {

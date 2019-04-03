@@ -148,7 +148,7 @@ define('SELF_FILE',__FILE__);
                 return;
             }
             jQuery.ajax({
-                url: "<?php echo (relative(SELF_FILE)); ?>contact_submit.php",
+                url: "<?php echo (relative(SELF_FILE)); ?>submit/contact_submit.php",
                 type: "post",
                 dataType: "json",
                 data: {

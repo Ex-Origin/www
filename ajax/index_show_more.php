@@ -1,6 +1,6 @@
 <?php
 
-include_once('./config.php');
+include_once('../config.php');
 // 定义文件目录
 define('SELF_FILE',__FILE__);
 
