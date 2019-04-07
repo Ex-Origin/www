@@ -5,6 +5,10 @@
 
 ### 实例网站：<http://www.eonew.cn/>
 
+## 最近更新： [NEWS.md](https://github.com/Ex-Origin/www/blob/master/NEWS.md)
+
+## 近期问题： [BUGS.md](https://github.com/Ex-Origin/www/blob/master/BUGS.md)
+
 ## 引用库
 1. Jquery
 2. Bootstrap

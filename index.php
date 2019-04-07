@@ -127,7 +127,7 @@ define('SELF_FILE',__FILE__);
                         <h5 class="small-title ">知乎 - 任晓珲</h5>
                         <p>我们经常看到媒体在报道时说国内某组织的某黑客在几秒内就攻破了IE浏览器，在几秒内就绕过了XX保护机制。但事实的真相是他们其实就是运行了一个自己准备好的代码而已，而媒体上说的这几秒钟的时间其实是代码的运行时间。据我说知，他们在参赛之前，整个团队为了这几秒钟的ShowTime，需要经历至少十余个甚至数十个不眠之夜，然后才能打造出可能仅有几百个字节的艺术品般的代码（也就是Exploit），最后才能拿去现场过五关斩六将。</p>
                         <p class="important">如果在这个十三亿人口的国度里最牛逼的黑客都需要如此付出，那么作为目前默默无闻的你来说，想要学会这门技术应该需要多少个不眠之夜呢？</p>
-                        <a href="<?php echo (relative(SELF_FILE)); ?>news_content/1.html" class="btn btn-default">阅读全文</a> 
+                        <a href="<?php echo (relative(SELF_FILE)); ?>article_content/1.html" class="btn btn-default">阅读全文</a> 
                     </div>
                 </div>
             </div>
