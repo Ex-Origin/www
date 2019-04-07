@@ -8,7 +8,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av2831981/?p=1",
-                "title": "C语言视频教程"
+                "title": "视频：C语言视频教程"
             },
             {
                 "url": "http://www.runoob.com/cprogramming/c-tutorial.html",
@@ -37,7 +37,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av7595819/?p=1",
-                "title": "C++快速入门系列教程-小甲鱼"
+                "title": "视频：C++快速入门系列教程-小甲鱼"
             },
             {
                 "url": "http://www.runoob.com/cprogramming/c-tutorial.html",
@@ -66,7 +66,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av7299271/?p=1",
-                "title": "韩顺平老师-Java从入门到精通[全]"
+                "title": "视频：韩顺平老师-Java从入门到精通[全]"
             },
             {
                 "url": "http://www.runoob.com/java/java-tutorial.html",
@@ -95,7 +95,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av7606481/?p=1",
-                "title": "C#语言入门详解"
+                "title": "视频：C#语言入门详解"
             },
             {
                 "url": "http://www.runoob.com/csharp/csharp-tutorial.html",
@@ -120,7 +120,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av2975983/?p=1",
-                "title": "（完结）（小甲鱼）数据结构和算法"
+                "title": "视频：（完结）（小甲鱼）数据结构和算法"
             },
             {
                 "url": "https://algorithm-visualizer.org/",
@@ -137,7 +137,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av7606481/?p=1",
-                "title": "【IT】MySQL入门视频【全】"
+                "title": "视频：【IT】MySQL入门视频【全】"
             },
             {
                 "url": "http://www.runoob.com/mysql/mysql-tutorial.html",
@@ -166,7 +166,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av10257787/?p=1",
-                "title": "【极客学院】HTML5基础教学"
+                "title": "视频：【极客学院】HTML5基础教学"
             },
             {
                 "url": "http://www.runoob.com/html/html-tutorial.html",
@@ -203,7 +203,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av5491837/?p=1",
-                "title": "PHP从入门到精通之PHP入门篇"
+                "title": "视频：PHP从入门到精通之PHP入门篇"
             },
             {
                 "url": "http://www.runoob.com/php/php-tutorial.html",
@@ -232,7 +232,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av4050443/?p=1",
-                "title": "[小甲鱼]零基础入门学习Python"
+                "title": "视频：[小甲鱼]零基础入门学习Python"
             },
             {
                 "url": "http://www.runoob.com/python/python-tutorial.html",
@@ -265,7 +265,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av23124815/?p=1",
-                "title": "韩老师讲大学高校课程《计算机网络原理》"
+                "title": "视频：韩老师讲大学高校课程《计算机网络原理》"
             }
         ]
     },
@@ -278,13 +278,24 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av21303002/?p=1",
-                "title": "尚硅谷_韩顺平_Linux教程"
+                "title": "视频：尚硅谷_韩顺平_Linux教程"
             },
             {
                 "url": "http://www.runoob.com/linux/linux-tutorial.html",
                 "title": "推荐网页文档"
+            },
+            {
+                "url": "https://c.runoob.com/compile/18",
+                "title": "Bash 在线"
+            },
+            {
+                "url": "https://www.centos.org/download/",
+                "title": "推荐系统 Centos"
+            },
+            {
+                "url": "https://www.ubuntu.com/download/desktop",
+                "title": "推荐系统 Ubuntu"
             }
-     
         ]
     },
     "asm": {
@@ -296,7 +307,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av18899713/?p=1",
-                "title": "【汇编语言】小甲鱼零基础汇编真正全集1-17章"
+                "title": "视频：【汇编语言】小甲鱼零基础汇编真正全集1-17章"
             }
         ]
     },
@@ -309,7 +320,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av24033143/?p=1",
-                "title": "[哈工大]计算机组成原理-刘宏伟"
+                "title": "视频：[哈工大]计算机组成原理-刘宏伟"
             }
         ]
     },
@@ -322,7 +333,7 @@
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av6538245/?p=1",
-                "title": "操作系统_清华大学(向勇、陈渝)"
+                "title": "视频：操作系统_清华大学(向勇、陈渝)"
             }
         ]
     },
@@ -334,8 +345,24 @@
         "markdown_file_path": "./robot.md",
         "sidenav": [
             {
+                "url": "https://www.bilibili.com/video/av19027609/?p=1",
+                "title": "视频：【高等数学】上海交通大学-乐经良"
+            },
+            {
+                "url": "https://www.bilibili.com/video/av31996293/?p=1",
+                "title": "视频：【公开课】数值分析（完）"
+            },
+            {
+                "url": "https://www.bilibili.com/video/av29971113/?p=1",
+                "title": "视频：《线性代数》高清教学视频"
+            },
+            {
+                "url": "https://www.bilibili.com/video/av41541089/?p=1",
+                "title": "视频：【机器学习导论】全套教程"
+            },
+            {
                 "url": "https://www.bilibili.com/video/av6538245/?p=1",
-                "title": "人工智能开发课程【尚学堂·百战程序员201805版】"
+                "title": "视频：人工智能开发课程【尚学堂·百战程序员201805版】"
             }
         ]
     }

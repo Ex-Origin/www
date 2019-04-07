@@ -38,7 +38,7 @@ $conn = get_sql_conn();
                         <div class="page-breadcrumb">
                             <ol class="breadcrumb">
                                 <li><a href="<?php echo (relative(SELF_FILE)); ?>index.php">首页</a></li>
-                                <li class="active">简讯</li>
+                                <li class="active">文章</li>
                             </ol>
                         </div>
                     </div>
@@ -58,14 +58,14 @@ $conn = get_sql_conn();
                 }
             }
 
-            $sql = "select title,introduction,time,id from news order by time desc , id desc limit ".(string)($page * SHOW_NUM - SHOW_NUM).",".(string)SHOW_NUM;
+            $sql = "select title,introduction,time,id from article order by time desc , id desc limit ".(string)($page * SHOW_NUM - SHOW_NUM).",".(string)SHOW_NUM;
             $result = $conn->query($sql);
             while($result->num_rows > 0 && $row = $result->fetch_assoc()) {
             ?>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="service-bottom-right1">
-                        <a href="<?php echo (relative(SELF_FILE)); ?>news_content/<?php echo urlencode($row['id']); ?>.html">
+                        <a href="<?php echo (relative(SELF_FILE)); ?>article_content/<?php echo urlencode($row['id']); ?>.html">
                             <h4><?php echo $row['title']; ?></h4>
                         </a>
                         <p><?php echo $row['introduction']; ?></p>
@@ -79,7 +79,7 @@ $conn = get_sql_conn();
             ?>
 
             <?php
-            $sql = "select count(*) from news";
+            $sql = "select count(*) from article";
             $result = $conn->query($sql);
             if($result->num_rows <= 0){
                 $all_log_num = 0;
@@ -95,10 +95,10 @@ $conn = get_sql_conn();
                 第<?php echo (string)$page; ?>页/共<?php echo ceil($all_log_num/SHOW_NUM); ?>页
             </p>
             <p style="text-align:center;margin-bottom:3em;">
-                <a href="<?php echo (relative(SELF_FILE)); ?>news.php?page=1" class="btn btn-primary">首页</a>
-                <a <?php if(!$head){echo 'href="'.(relative(SELF_FILE)).'news.php?page='.(string)($page-1).'"';} ?> class="btn btn-primary <?php if($head){echo "disabled";} ?>">上一页</a>
-                <a <?php if(!$tail){echo 'href="'.(relative(SELF_FILE)).'news.php?page='.(string)($page+1).'"';} ?> class="btn btn-primary <?php if($tail){echo "disabled";} ?>">下一页</a>
-                <a href="<?php echo (relative(SELF_FILE)); ?>news.php?page=<?php echo ceil($all_log_num/SHOW_NUM); ?>" class="btn btn-primary">末页</a>
+                <a href="<?php echo (relative(SELF_FILE)); ?>article.php?page=1" class="btn btn-primary">首页</a>
+                <a <?php if(!$head){echo 'href="'.(relative(SELF_FILE)).'article.php?page='.(string)($page-1).'"';} ?> class="btn btn-primary <?php if($head){echo "disabled";} ?>">上一页</a>
+                <a <?php if(!$tail){echo 'href="'.(relative(SELF_FILE)).'article.php?page='.(string)($page+1).'"';} ?> class="btn btn-primary <?php if($tail){echo "disabled";} ?>">下一页</a>
+                <a href="<?php echo (relative(SELF_FILE)); ?>article.php?page=<?php echo ceil($all_log_num/SHOW_NUM); ?>" class="btn btn-primary">末页</a>
             </p>
 
         </div>

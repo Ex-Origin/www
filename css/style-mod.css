@@ -113,6 +113,18 @@ article.markdown{
     white-space: unset;
 }
 
+.post-quote blockquote {
+    background-color: unset;
+}
+
+.author{
+    line-height: 1.5em;
+    text-align: right;
+    margin: 1em;
+    color: #000;
+    font-weight: bold;
+}
+
 /* service-bottom-right1 */
 .service-bottom-right1 a h4{
 	color:#337ab7;

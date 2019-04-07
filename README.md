@@ -51,8 +51,8 @@ $("article.markdown").each(function(){
 ### 5. 主要的动态网页
 * book.php
 * message.php
-* news.php
-* news_content.php
+* article.php
+* article_content.php
 
 ### 6. 编程入门模块： introduction
 由`introduction/content.php`来显示其具体内容，其内容由下决定：

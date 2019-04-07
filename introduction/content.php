@@ -57,7 +57,7 @@ if(isset($_GET['page']) && $data[$_GET['page']]){
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <article class="markdown"><?php echo htmlspecialchars(file_get_contents($data['markdown_file_path'])); ?></article>
+                    <article class="markdown"><?php echo file_get_contents($data['markdown_file_path']); ?></article>
                 </div>
 
                 <!-- sidenav -->

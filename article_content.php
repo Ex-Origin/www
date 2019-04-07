@@ -2,7 +2,7 @@
 include_once('./config.php');
 // 定义文件目录
 // 为了迎合重写规则
-define('SELF_FILE',dirname(__FILE__) . str_replace(dirname(__FILE__),'/news_content',__FILE__));
+define('SELF_FILE',dirname(__FILE__) . str_replace(dirname(__FILE__),'/article_content',__FILE__));
 
 $id = 0;
 if(isset($_GET['id']) && is_numeric($_GET['id'])){
@@ -17,7 +17,7 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])){
 $conn = get_sql_conn();
 
 // 读取内容
-$sql = "select title,introduction,time,markdown_content from news where id ='".(string)$id."'";
+$sql = "select title,introduction,time,markdown_content from article where id ='".(string)$id."'";
 $result = $conn->query($sql);
 if($result->num_rows <= 0){
     include_once ROOT_DIR . '403.html';
@@ -53,7 +53,7 @@ $data = $result->fetch_assoc();
                         <div class="page-breadcrumb">
                             <ol class="breadcrumb">
                                 <li><a href="<?php echo (relative(SELF_FILE)); ?>index.php">首页</a></li>
-                                <li><a href="<?php echo (relative(SELF_FILE)); ?>news.php">简讯</a></li>
+                                <li><a href="<?php echo (relative(SELF_FILE)); ?>article.php">文章</a></li>
                                 <li class="active"><?php echo $data['title']; ?></li>
                             </ol>
                         </div>
