@@ -25,7 +25,7 @@
                                     <li><a href="http://video.eonew.cn/" target="_blank" title="最新电影">最新电影</a></li>
                                     <li><a href="http://blog.eonew.cn/" target="_blank" title="Ex个人博客">Ex个人博客</a></li>
                                     <li><a href="http://study.eonew.cn/" target="_blank" title="题库">题库</a></li>
-                                    <li><a href="http://bbs.eonew.cn/" target="_blank" title="考研论坛">考研论坛</a></li>
+                                    <li><a href="http://kaoyan.eonew.cn/" target="_blank" title="考研论坛">考研论坛</a></li>
                                 </ul>
                             </li>
                             <li><a href="<?php echo (relative(SELF_FILE)); ?>message.php" title="留言板">留言板</a> </li>

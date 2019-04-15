@@ -1,5 +1,11 @@
 # 更新内容 UPDATE
 
+## 2019-04-15
+
+Update all articles in `introduction`.
+
+更新完编程入门里的所有文章。
+
 ## 2019-04-08
 
 Add back to top button, mainly modified file `js/global.js`.

@@ -308,6 +308,14 @@
             {
                 "url": "https://www.bilibili.com/video/av18899713/?p=1",
                 "title": "视频：【汇编语言】小甲鱼零基础汇编真正全集1-17章"
+            },
+            {
+                "url": "https://www.dosbox.com/",
+                "title": "推荐软件：DosBox"
+            },
+            {
+                "url": "http://file.eonew.cn/exe/asm.zip",
+                "title": "汇编软件包下载"
             }
         ]
     },
@@ -324,12 +332,12 @@
             }
         ]
     },
-    "operating_system": {
+    "operating_syst_m": {
         "description": "操作系统",
         "keywords": "操作系统",
         "title": "操作系统",
         "name": "操作系统",
-        "markdown_file_path": "./operating_system.md",
+        "markdown_file_path": "./operating_syst_m.md",
         "sidenav": [
             {
                 "url": "https://www.bilibili.com/video/av6538245/?p=1",

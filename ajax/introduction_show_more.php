@@ -139,10 +139,10 @@ define('SELF_FILE',__FILE__);
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="service-block">
             <div class="service-icon mb20">
-                <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/operating_system.html" class="title"><img src="<?php echo (relative(SELF_FILE)); ?>images/operating_system.png" class="program-icon" alt="操作系统"> </a>
+                <a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/operating_syst_m.html" class="title"><img src="<?php echo (relative(SELF_FILE)); ?>images/operating_system.png" class="program-icon" alt="操作系统"> </a>
             </div>
             <div class="service-content">
-                <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/operating_system.html" class="title">操作系统</a></h2>
+                <h2><a href="<?php echo (relative(SELF_FILE)); ?>introduction/content/operating_syst_m.html" class="title">操作系统</a></h2>
                 <p>操作系统（Operating System，简称OS）是管理和控制计算机硬件与软件资源的计算机程序，是直接运行在“裸机”上的最基本的系统软件，任何其他软件都必须在操作系统的支持下才能运行。</p>
                 <p>玩CTF的再推荐了解这个，越了解底层可以对计算机行业理解的更深。</p>
             </div>

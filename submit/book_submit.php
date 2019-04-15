@@ -26,7 +26,7 @@ if(isset($_POST['name']) && isset($_POST['type']) && isset($_POST['url']) && $_P
     if($book_conn->query($sql) === TRUE){
         echo "成功";
         // 给站长发送邮件
-        system('../../book_submit.py');
+        system('python3 ../../book_submit.py');
     }else{
         header('HTTP/1.1 500 Internal Server Error');
         // echo $sql;

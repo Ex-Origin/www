@@ -39,7 +39,7 @@ if(isset($_POST['content'])){
     if($book_conn->query($sql) === TRUE){
         echo "成功";
         // 给站长发送邮件
-        system('../../contact_submit.py');
+        system('python3 ../../contact_submit.py');
     }else{
         header('HTTP/1.1 500 Internal Server Error');
         // echo $sql;

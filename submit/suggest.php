@@ -22,7 +22,7 @@ if(isset($_POST['suggest'])){
     if($suggest_conn->query($sql) === TRUE){
         echo "成功";
         // 给站长发送邮件
-        system('../../suggest.py');
+        system('python3 ../../suggest.py');
     }else{
         header('HTTP/1.1 500 Internal Server Error');
         // echo $sql;

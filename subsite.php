@@ -113,8 +113,8 @@ define('SELF_FILE',__FILE__);
                             </div>
                             <div class="col-md-6">
                                 <div class="post-content">
-                                    <h2><a href="http://bbs.eonew.cn/" class="title" target="_blank"> 考研论坛 </a></h2>
-                                    <h5 class="small-title ">bbs.eonew.cn</h5>
+                                    <h2><a href="http://kaoyan.eonew.cn/" class="title" target="_blank"> 考研论坛 </a></h2>
+                                    <h5 class="small-title ">kaoyan.eonew.cn</h5>
                                     <p></p>
                                 </div>
                             </div>
