@@ -55,10 +55,8 @@ define('SELF_FILE',__FILE__);
                         </div>
 
                         <ul class="listnone contact">
-                            <li><i class="fa fa-map-marker"></i> 南昌大学科学技术学院（共青校区） </li>
                             <li><i class="fa fa-qq"></i> 站长QQ： 2462148389 </li>
                             <li><i class="fa fa-qq"></i>官方Q群： 972125311</li>
-                            <li><i class="fa fa-phone"></i> +86 15170926263</li>
                             <li><i class="fa fa-envelope-o"></i> 2462148389@qq.com</li>
                         </ul>
                     </div>

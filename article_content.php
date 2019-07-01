@@ -65,7 +65,7 @@ $data = $result->fetch_assoc();
     <div class="content">
         <div class="container">
 
-            <article class="markdown"><?php echo htmlspecialchars($data['markdown_content']); ?></article>
+            <article class="markdown"><?php echo ($data['markdown_content']); ?></article>
 
         </div>
     </div>

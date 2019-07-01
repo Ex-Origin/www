@@ -119,7 +119,7 @@ define('SELF_FILE',__FILE__);
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row SMS">
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"><img src="<?php echo (relative(SELF_FILE)); ?>images/hacker.jpeg" alt="" class="img-responsive"></div>
                 <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                     <div class="well-block">
@@ -131,6 +131,20 @@ define('SELF_FILE',__FILE__);
                     </div>
                 </div>
             </div>
+
+            <div class="row SMS">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"><img src="<?php echo (relative(SELF_FILE)); ?>images/study.jpg" alt="" class="img-responsive"></div>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <div class="well-block">
+                        <h1>整体性学习法</h1>
+                        <h5 class="small-title ">作者 - 江湖举人</h5>
+                        <p>如果你想看完我这个视频就能马上考上麻省理工了，我劝你赶紧关掉，但是如果你在日常努力的学习中，一直苦于无法再进一步，那么也许，接下来，我和你聊的这本书，可以为你打开一扇新世界的大门。</p>
+                        <p>《如何高效学习：1年完成麻省理工4年33门课程的整体性学习法》本书的作者斯科特杨，也是一位国外的网红博主，依靠着自己的学习法，10天拿下线性代数，12个月自学完成麻省理工4年33们课程，斯科特说比我聪明的人多了去了，他们可不见得比我要厉害，原因在于，聪明人都会在学习中逐渐形成自己一套学习技巧。</p>
+                        <a href="<?php echo (relative(SELF_FILE)); ?>article_content/5.html" class="btn btn-default">阅读全文</a> 
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     
@@ -152,6 +166,13 @@ define('SELF_FILE',__FILE__);
 						<strong>星盟安全团队 </strong>很强很厉害 www.xmcve.com
 				    </div>    
 				</a>
+
+                <a href="https://www.cnblogs.com/H4lo" target="_blank">
+                    <div class="alert alert-success" role="alert">
+						<strong>H4lo大佬的博客 </strong>Linux Pwner && IOT Security Researcher. www.cnblogs.com/H4lo
+				    </div>    
+				</a>
+
                 <a href="http://movie.jxesk.cn/" target="_blank">
 					<div class="alert alert-warning" role="alert">
 						<strong>贝壳影视 </strong>免费播放VIP视频，支持在线观看 movie.jxesk.cn
@@ -161,6 +182,12 @@ define('SELF_FILE',__FILE__);
                 <a href="https://www.dytt8.net/" target="_blank">
                     <div class="alert alert-danger" role="alert">
 					    <strong>电影天堂 </strong>最好的迅雷电影下载网，分享最新电影，高清电影、综艺、动漫、电视剧等下载！ www.dytt8.net
+				    </div>    
+				</a>
+
+                <a href="https://thunderjie.github.io/" target="_blank">
+                    <div class="alert alert-info" role="alert">
+						<strong>Thunder_J大佬的博客 </strong>又是一位很强的pwn师傅。 thunderjie.github.io
 				    </div>    
 				</a>
             </div>
@@ -194,7 +221,7 @@ define('SELF_FILE',__FILE__);
             
             <div class="panel panel-success">
                 <div class="panel-body">
-                    <p class="paragraph">It doesn't matter how smart you are, someone is always smarter. If you really wants to grow strong, then you're going to need all the help you can get.</p>
+                    <p class="paragraph">It doesn't matter how smart you are, someone is always smarter. If you really want to grow strong, then you're going to need all the help you can get.</p>
                     <p class="paragraph">不管你有多么聪明，总有人比你更聪明。如果你想变得更强，那就必须得到能得到的一切帮助。</p>
                 </div>
                 <div class="panel-footer"><h3 class="panel-title text-right">————《The Imitation Game》Joan（有改动）</h3></div>

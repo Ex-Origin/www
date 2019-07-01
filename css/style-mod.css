@@ -125,6 +125,68 @@ article.markdown{
     font-weight: bold;
 }
 
+.SMS{
+    margin: 2em 0;
+}
+
+/* Large Devices,Wide Screens */
+@media screen and (max-width:2000px) {
+	.bilibili{
+		width:100%;
+		margin: 2em 0;
+		height:48em;
+	}
+}
+/* Large Devices,Wide Screens */
+@media screen and (max-width:1600px) {
+	.bilibili{
+		width:100%;
+		margin: 2em 0;
+		height:48em;
+	}
+}
+/* Large Devices,Wide Screens */
+@media screen and (max-width:1200px) {
+	.bilibili{
+		width:100%;
+		margin: 2em 0;
+		height:41em;
+	}
+}
+/* Medium Devices,Desktops */
+@media screen and (max-width:992px) {
+	.bilibili{
+		width:100%;
+		margin: 2em 0;
+		height:34em;
+	}
+}
+/* Small Devices,Tablets */
+@media screen and (max-width:768px) {
+	.bilibili{
+		width:100%;
+		margin: 2em 0;
+		height:23em;
+	}
+}
+/* Extra Small Devices,Phones */ 
+@media screen and (max-width:480px) {
+	.bilibili{
+		width:100%;
+		margin: 2em 0;
+		height:16em;
+	}
+}
+/* Custom,iPhone Retina */ 
+@media screen and (max-width:320px) {
+	.bilibili{
+		width:100%;
+		margin: 2em 0;
+		height:10em;
+	}
+}
+
+
 /* service-bottom-right1 */
 .service-bottom-right1 a h4{
 	color:#337ab7;
